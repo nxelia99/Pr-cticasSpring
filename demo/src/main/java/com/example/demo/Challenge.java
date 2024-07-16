@@ -6,7 +6,7 @@
 package com.example.demo;
 
 
-class Challenge {
+public class Challenge {
     private Long id;
     private String month;
     private String description;
@@ -15,6 +15,10 @@ class Challenge {
         this.description = description;
         this.id = id;
         this.month = month;
+    }
+
+    public Long getId() {
+        return id;
     }
 
 
